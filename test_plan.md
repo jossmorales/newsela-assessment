@@ -89,16 +89,16 @@ The test validates required UI behavior rather than backend logic, focusing on t
     - Validate next button is displayed
     - Validate an error if prompt is empty.
 
-#### TC-08: User can proceed to assignment configuration step
+#### TC-09: User can proceed to assignment configuration step
 - Verify the Assignment Configurations modal is present
 - Verify rubric selection is visible and populated
 
-#### TC-09: User can review assignment details before saving
+#### TC-10: User can review assignment details before saving
 - Verify the Review Assignment Details modal is present
 - Verify assignment name and prompt are visible
 - Verify review configuration information is visible
 
-#### TC-10: User can save and confirm assignment creation
+#### TC-11: User can save and confirm assignment creation
 - Click Save assignment
 - Verify the success confirmation message appears
 - Verify the assignment link or reference is present
