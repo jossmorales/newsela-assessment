@@ -30,7 +30,7 @@ Before running the tests, make sure you have the following installed:
    npx playwright install
    ```
 
-4. Open the `.env` file in the project root and add your Newsela credentials:
+4. Create a `.env` file in the project root and add your Newsela credentials:
 
    ```env
    USERNAME=your_username
