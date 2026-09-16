@@ -12,25 +12,31 @@ Before running the tests, make sure you have the following installed:
 
 ## Setup
 
-1. Open a terminal in the project root:
+1. Open a terminal to clone the repository:
 
    ```bash
-   cd c:\Users\Documents\newsela-test
+   git clone https://github.com/jossmorales/newsela-assessment.git
    ```
 
-2. Install project dependencies:
+2. Open a terminal in the project directory cloned in the previous step:
+
+   ```bash
+   cd project directory path
+   ```
+
+3. Install project dependencies:
 
    ```bash
    npm install
    ```
 
-3. Install the Playwright browser binaries:
+4. Install the Playwright browser binaries:
 
    ```bash
    npx playwright install
    ```
 
-4. Create a `.env` file in the project root and add your Newsela credentials:
+5. Create a `.env` file in the project root and add your Newsela credentials:
 
    ```env
    USERNAME=your_username
